@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="10dp"
+    card_view:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="365dp"
+        android:layout_height="268dp"
+        android:background="@drawable/auto_gradient"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        card_view:layout_editor_absoluteX="11dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_x="23dp"
+            android:layout_y="8dp"
+            android:text="PARQUES Y ZONAS VERDES DEL MUNICIPIO DE GUADALAJARA BUGA"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nombre_del_parque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="72dp"
+            android:text="Nombre del parque"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/nombreparque"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_x="163dp"
+            android:layout_y="70dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/zonaeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="171dp"
+            android:layout_y="117dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/zona_de_eventos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="118dp"
+            android:text="Zona de eventos"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/Zona_verde"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_x="26dp"
+            android:layout_y="148dp"
+            android:text="Zona verde"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/zonaver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="173dp"
+            android:layout_y="146dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/arenal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="24dp"
+            android:layout_y="181dp"
+            android:text="Arenal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/arenals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="172dp"
+            android:layout_y="179dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/juegos_infantiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="24dp"
+            android:layout_y="210dp"
+            android:text="Juegos infantiles"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/juegos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="171dp"
+            android:layout_y="207dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/zona_wi_fi"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="241dp"
+            android:text="Zona Wifi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="172dp"
+            android:layout_y="237dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="142dp"
+            android:layout_height="137dp"
+            android:layout_x="220dp"
+            android:layout_y="111dp"
+            app:srcCompat="@drawable/buga" />
+
+
+    </AbsoluteLayout>
+</android.support.constraint.ConstraintLayout>
